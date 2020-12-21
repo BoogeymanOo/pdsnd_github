@@ -1,4 +1,8 @@
 '''
+Explore US Bikeshare Data. The user can explore the US Bikeshare Data
+set by choosing the State, the Month, the Day and how detailed he want
+to see the query
+
 Sources used 
 https://docs.python.org/3/
 https://stackoverflow.com/questions
