@@ -309,6 +309,36 @@ def main():
         trip_duration_stats(df)
         user_stats(df, city)
         
+        print("""            .-. 
+                            o   \     .-. 
+                               .----.'   \ 
+                             .'o)  / `.   o 
+                            /         | 
+                            \_)       /-. 
+                              '_.`    \  \ 
+                               `.      |  \ 
+                                |       \ | 
+                            .--/`-.     / / 
+                          .'.-/`-. `.  .\| 
+                         /.' /`._ `-    '-. 
+                    ____(|__/`-..`-   '-._ \ 
+                   |`------.'-._ `      ||\ \ 
+                   || #   /-.   `   /   || \| 
+                   ||   #/   `--'  /  /_::_|)__ 
+                   `|____|-._.-`  /  ||`--------` 
+                         \-.___.` | / || #      | 
+                          \       | | ||   #  # | 
+                          /`.___.'\ |.`|________| 
+                          | /`.__.'|'.` 
+                        __/ \    __/ \ 
+                       /__.-.)  /__.-.) LGB 
+                
+                ------------------------------------------------
+                Thank you for visiting https://asciiart.website/
+                This ASCII pic can be found at
+                https://asciiart.website/index.php?art=animals/insects/other
+                """)
+        
         # ask user if he want to repeat the query 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
