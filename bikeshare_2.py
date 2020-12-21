@@ -309,26 +309,6 @@ def main():
         trip_duration_stats(df)
         user_stats(df, city)
         
-        # display user data for Top Birth years
-        # ask user to see the top 5
-        view_data = input('\nWould you like to view the raw Data for your query? Enter yes or no\n')
-        if view_data == 'yes':
-            # set start index
-            start_loc = 0
-            repeat = 'yes'
-            # repeat as long user choose yes
-            while (repeat == 'yes'):
-                # print 5 rows per run
-                pd.set_option('display.max_columns', None)
-                print(df.iloc[start_loc:start_loc+5])
-                start_loc += 5
-                # repeat until user choose no
-                while True:        
-                    repeat = input('Do you wish to see the next 5, (yes or no)?: ').lower()
-                    print('Your Input', repeat)
-                    if repeat == 'yes' or repeat == 'no':
-                        break
-        
         # ask user if he want to repeat the query 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
