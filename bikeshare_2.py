@@ -304,6 +304,10 @@ def user_stats(df, city):
     print('-'*80)
 
 def main():
+	'''
+	main part to get the necessary user inputs, initiate output
+	and print the requested data
+	'''
     while True:
         # functions call
         city, month, day, extended = get_filters()
