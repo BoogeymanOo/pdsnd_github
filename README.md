@@ -2,7 +2,7 @@
 2020-12-21
 
 ### Project Title
-Bikeshare
+US Bikeshare User Query
 
 ### Description
 ------------------------------------------------------------------------
